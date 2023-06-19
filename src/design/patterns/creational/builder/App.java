@@ -31,9 +31,11 @@ public class App {
 		MealBuilder mealBuilder = new  MealBuilder();
 		Meal vegMeal = mealBuilder.getVegMeal();
 		vegMeal.showItems();
+		// showCost()
 		
 		Meal nonVegMeal = mealBuilder.getNonVegMeal();
 		nonVegMeal.showItems();
+		// showCost()
 		
 		
 		
