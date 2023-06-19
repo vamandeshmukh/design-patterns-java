@@ -1,5 +1,13 @@
 package design.patterns.demo;
 
+/**
+ * 
+ * @author Vaman Deshmukh 
+ * Git repo - 
+ * https://github.com/vamandeshmukh/design-patterns-java 
+ *
+ */
+
 public class App {
 	
 	public static void main(String[] args) {
