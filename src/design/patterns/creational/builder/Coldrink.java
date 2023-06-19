@@ -1,5 +1,11 @@
 package design.patterns.creational.builder;
 
-public class Coldrink {
+public abstract class Coldrink implements Item {
+
+	@Override
+	public Packing packing() {
+
+		return new Bottle();
+	}
 
 }
