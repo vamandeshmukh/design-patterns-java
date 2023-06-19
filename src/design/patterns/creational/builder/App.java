@@ -22,6 +22,11 @@ package design.patterns.creational.builder;
  * ArrayList of Item and a MealBuilder to build different types of Mealobject by
  * combining Item. BuilderPatternDemo, our demo class will use MealBuilder to
  * build a Meal.
+ * 
+ * Wiki - https://en.wikipedia.org/wiki/Builder_pattern 
+ * SOF1 - https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-pattern 
+ * SOF2 - https://stackoverflow.com/questions/55748815/why-do-we-need-to-use-the-builder-design-pattern-when-we-can-do-the-same-thing-w 
+ * 
  */
 
 public class App {
