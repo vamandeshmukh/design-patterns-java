@@ -26,6 +26,20 @@ package design.patterns.creational.builder;
 
 public class App {
 	
+	public static void main(String[] args) {
+		
+		MealBuilder mealBuilder = new  MealBuilder();
+		Meal vegMeal = mealBuilder.getVegMeal();
+		vegMeal.showItems();
+		
+		Meal nonVegMeal = mealBuilder.getNonVegMeal();
+		nonVegMeal.showItems();
+		
+		
+		
+		
+	}
+	
 	
 
 }
