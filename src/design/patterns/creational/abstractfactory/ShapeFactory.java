@@ -1,8 +1,9 @@
 package design.patterns.creational.abstractfactory;
 
-public class ShapeFactory {
 
-	// this method can also be static 
+
+public class ShapeFactory extends SuperFactory {
+
 	public Shape createShape(String typeOfShape) {
 		if (typeOfShape.equalsIgnoreCase("square"))
 			return new Square();
@@ -12,7 +13,12 @@ public class ShapeFactory {
 			return new Rectangle();
 		// code 
 		return null;
-
 	}
 
-}
+	 @Override
+	 Color fillColor(String color) {
+	 return null;
+	 }
+
+
+	}

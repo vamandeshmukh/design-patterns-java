@@ -12,7 +12,6 @@ public class ShapeFactory {
 			return new Rectangle();
 		// code 
 		return null;
-
 	}
 
 }

@@ -28,6 +28,18 @@ public class App {
 
 	public static void main(String[] args) {
 
+		SuperFactory shapeFactory = FactoryProducer.getFactory("shape");
+
+		Shape shape1 = shapeFactory.createShape("circle");
+
+		shape1.draw();
+
+		SuperFactory colorFactory = FactoryProducer.getFactory("color");
+
+		Color color1 = colorFactory.fillColor("yellow");
+
+		color1.fill();
+
 	}
 
 }
