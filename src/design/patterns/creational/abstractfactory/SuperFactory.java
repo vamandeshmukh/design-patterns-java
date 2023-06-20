@@ -1,8 +1,19 @@
 package design.patterns.creational.abstractfactory;
 
+//public abstract class SuperFactory {
+//
+//	abstract Color fillColor(String color);
+//
+//	abstract Shape createShape(String typeOfShape);
+//}
+
 public abstract class SuperFactory {
 
-	abstract Color fillColor(String color);
+	public Color fillColor(String color) {
+		return null;
+	}
 
-	abstract Shape createShape(String typeOfShape);
+	public Shape createShape(String typeOfShape) {
+		return null;
+	}
 }

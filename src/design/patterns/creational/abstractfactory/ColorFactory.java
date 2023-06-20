@@ -3,7 +3,7 @@ package design.patterns.creational.abstractfactory;
 public class ColorFactory extends SuperFactory {
 
 	@Override
-	Color fillColor(String color) {
+	public Color fillColor(String color) {
 		if (color == null) {
 			return null;
 		}
@@ -17,9 +17,9 @@ public class ColorFactory extends SuperFactory {
 		return null;
 	}
 
-	@Override
-	Shape createShape(String typeOfShape) {
-		return null;
-	}
+//	@Override
+//	Shape createShape(String typeOfShape) {
+//		return null;
+//	}
 
 }

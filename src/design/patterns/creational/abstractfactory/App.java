@@ -18,9 +18,13 @@ package design.patterns.creational.abstractfactory;
  * AbstractFactoryPatternDemo, our demo class uses FactoryProducer to get a
  * AbstractFactory object. It will pass information (CIRCLE / RECTANGLE / SQUARE
  * for Shape) to AbstractFactory to get the type of object it needs. It also
- * passes information (RED / GREEN / BLUE for Color) to AbstractFactory to get
+ * passes information (RED / YELLOW / BLUE for Color) to AbstractFactory to get
  * the type of object it needs.
- * 
+ *
+ * SoF1 -
+ * https://stackoverflow.com/questions/5739611/what-are-the-differences-between-abstract-factory-and-factory-design-patterns
+ * SoF2 -
+ * https://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between-the-factory-and-abstract-factory-design-pat
  *
  */
 

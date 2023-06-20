@@ -1,7 +1,5 @@
 package design.patterns.creational.abstractfactory;
 
-
-
 public class ShapeFactory extends SuperFactory {
 
 	public Shape createShape(String typeOfShape) {
@@ -11,14 +9,13 @@ public class ShapeFactory extends SuperFactory {
 			return new Circle();
 		else if (typeOfShape.equalsIgnoreCase("rectangle"))
 			return new Rectangle();
-		// code 
+		// code
 		return null;
 	}
 
-	 @Override
-	 Color fillColor(String color) {
-	 return null;
-	 }
+//	@Override
+//	Color fillColor(String color) {
+//		return null;
+//	}
 
-
-	}
+}

@@ -14,15 +14,19 @@ package design.patterns.creational.factory.method;
  * a Shape object. It will pass information (CIRCLE / RECTANGLE / SQUARE) to
  * ShapeFactory to get the type of object it needs.
  * 
+ * * SoF1 -
+ * https://stackoverflow.com/questions/5739611/what-are-the-differences-between-abstract-factory-and-factory-design-patterns
+ * SoF2 -
+ * https://stackoverflow.com/questions/1001767/what-is-the-basic-difference-between-the-factory-and-abstract-factory-design-pat
  * 
  */
 
 public class App {
 
 	public static void main(String[] args) {
-		
+
 //		ShapeFactory.getInstance().createShape("some value");
-		
+
 		ShapeFactory factory = new ShapeFactory();
 		Shape shape1 = factory.createShape("circle");
 		shape1.draw();
