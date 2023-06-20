@@ -21,6 +21,8 @@ public class App {
 
 	public static void main(String[] args) {
 		
+//		ShapeFactory.getInstance().createShape("some value");
+		
 		ShapeFactory factory = new ShapeFactory();
 		Shape shape1 = factory.createShape("circle");
 		shape1.draw();

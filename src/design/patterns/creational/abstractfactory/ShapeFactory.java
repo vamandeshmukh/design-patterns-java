@@ -1,4 +1,4 @@
-package design.patterns.creational.factory.method;
+package design.patterns.creational.abstractfactory;
 
 public class ShapeFactory {
 
