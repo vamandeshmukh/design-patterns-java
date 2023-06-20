@@ -34,6 +34,7 @@ public class App {
 
 		AudioPlayer audioPlayer = new AudioPlayer();
 		audioPlayer.play("mp3", "Natu natu.mp3");
+		audioPlayer.play("mp4", "Natu natu.mp4");
 		audioPlayer.play("vlc", "Natu natu.vlc");
 
 	}

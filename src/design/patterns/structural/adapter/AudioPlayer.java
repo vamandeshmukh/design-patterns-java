@@ -2,13 +2,17 @@ package design.patterns.structural.adapter;
 
 public class AudioPlayer implements MediaPlayer {
 
+	MediaAdapter mediaAdapter;
+
 	@Override
 	public void play(String typeOfAudio, String fileName) {
 
-		if (typeOfAudio.equalsIgnoreCase("mp3"))
+		if (typeOfAudio.equalsIgnoreCase("mp3")) {
 			System.out.println("Mp3 being played...");
-		else if (typeOfAudio.equalsIgnoreCase("vlc"))
-			System.out.println("VLC being played...");
+		} else {
+			mediaAdapter = new MediaAdapter(typeOfAudio);
+			mediaAdapter.play(typeOfAudio, fileName);
+		}
 
 	}
 

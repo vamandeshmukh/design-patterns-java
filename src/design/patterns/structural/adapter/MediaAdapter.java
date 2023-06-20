@@ -5,14 +5,14 @@ public class MediaAdapter implements MediaPlayer {
 	AdvancedMediaPlayer advancedMediaPlayer;
 
 	// delete afterwards
-	public MediaAdapter() {
-		super();
-	}
+//	public MediaAdapter() {
+//		super();
+//	}
 
-	public MediaAdapter(String typeOfAudio, String fileName) {
+	public MediaAdapter(String typeOfAudio) {
 		if (typeOfAudio.equalsIgnoreCase("vlc"))
 			advancedMediaPlayer = new VlcPlayer();
-		else if (typeOfAudio.equalsIgnoreCase("vlc"))
+		else if (typeOfAudio.equalsIgnoreCase("mp4"))
 			advancedMediaPlayer = new Mp4Player();
 
 	}
