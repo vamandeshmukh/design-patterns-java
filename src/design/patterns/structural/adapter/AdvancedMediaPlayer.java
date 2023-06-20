@@ -1,5 +1,7 @@
 package design.patterns.structural.adapter;
 
-public class AdvancedMediaPlayer {
+public interface AdvancedMediaPlayer {
+
+	public abstract void playAudio(String fileName);
 
 }

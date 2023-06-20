@@ -32,6 +32,10 @@ public class App {
 
 	public static void main(String[] args) {
 
+		AudioPlayer audioPlayer = new AudioPlayer();
+		audioPlayer.play("mp3", "Natu natu.mp3");
+		audioPlayer.play("vlc", "Natu natu.vlc");
+
 	}
 
 }
