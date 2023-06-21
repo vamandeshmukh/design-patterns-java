@@ -19,6 +19,9 @@ package design.patterns.structural.bridge;
  * DrawAPI. BridgePatternDemo, our demo class will use Shape class to draw
  * different colored circle.
  * 
+ * SoF:
+ * https://stackoverflow.com/questions/1425171/difference-between-bridge-pattern-and-adapter-pattern
+ * 
  */
 
 public class App {
