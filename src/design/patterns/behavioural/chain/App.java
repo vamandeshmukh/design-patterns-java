@@ -21,8 +21,8 @@ public class App {
 
 	private static AbstractLogger getChainOfLogger() {
 		AbstractLogger errorLogger = new ErrorLogger(AbstractLogger.ERROR);
-		AbstractLogger fileLogger = new ErrorLogger(AbstractLogger.INFO);
-		AbstractLogger consoleLogger = new ErrorLogger(AbstractLogger.DEBUG);
+		AbstractLogger fileLogger = new FileLogger(AbstractLogger.INFO);
+		AbstractLogger consoleLogger = new ConsoleLogger(AbstractLogger.DEBUG);
 		errorLogger.setNextLogger(fileLogger);
 		fileLogger.setNextLogger(consoleLogger);
 		return errorLogger;
