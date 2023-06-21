@@ -22,13 +22,14 @@ package design.patterns.structural.bridge;
  */
 
 public class App {
-	
+
 	public static void main(String[] args) {
-		
-		Shape shape = new Shape();
-		RedCircle redCircle;
-		GreenCircle greenCircle;
-		
+
+		Shape redCircle = new Circle(50, 20, 10, new RedCircle());
+		redCircle.draw();
+		Shape greenCircle = new Circle(100, 10, 5, new GreenCircle());
+		greenCircle.draw();
+
 	}
 
 }
